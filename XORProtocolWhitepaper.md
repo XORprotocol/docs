@@ -396,3 +396,78 @@ borrowers from different countries can select the appropriate jurisdiction. Comb
 notarizing and Proof of Identity, XOR will be able to provide a framework for customers
 to assess and reconcile legal issues. The OpenLaw contract can be encapsulated within the
 lending/borrowing contract itself.
+
+## VIII. Applications
+In this section, we briefly discuss several examples of potential XOR Protocol applications. The
+first two examples are examples of loans, while the rest of the examples are examples of derivative
+markets.
+
+### VIII.1 XOR College Loans
+Typical college loans currently have high interest rates and default rates. The 2017-2018 student
+loan rates are 4.45 percent for undergraduates, 6 percent for graduate Direct Subsidized Loans,
+and 7 percent for graduate Direct Plus Loans. As of 2018, the total exposure is 1.48 trillion USD at
+a default rate of 11.2 percent. The primary issue with high exposure and default rates with college
+loan borrowers is not necessarily the loans themselves, but the rapidly rising cost of college itself.
+
+An XOR college loan could potentially alleviate part of the problem by attempting to drop
+interest rates and thus provide cheaper loans. This would be possible with the removal of third
+party fees. In addition, this would essentially enable a market where lenders can invest in potential
+college students’ futures. We see this as a popular and interesting alternative to typical government
+college loans.
+
+### VIII.2 XOR Third World Borrowing Access
+A goal for XOR is to enable members of third world countries to participate in the modern financial
+system. XOR can help with this because of its decentralized and fee-free design. Since anyone can
+participate in an XOR market provided they meet the preconditions (proof of identity, potential
+collaterals, etc.) the XOR Protocol is far more accessible as a financial system than traditional
+banking.
+
+However, it is important to note that Proof of Identity is difficult in countries which do not
+have strong documentation procedures, because government identities may not exist for everyone.
+
+### VIII.3 Startup Fundraising
+An interesting use case for XOR would be as a startup fundraising platform. A traditional ICO
+involves trading some value of tokens (representing equity in the system) for cash. The company
+running the ICO then uses that cash to further develop their system.
+
+An XOR loan round would be fundamentally different in that instead of trading cash for
+equity in the startup, the startup would instead provide a contract with a repayment protocol.
+This contract can be programmed with complex logic to dictate the repayment. A simple example
+would be to simply pay the cash back with interest. A more complicated example could be to pay
+the investor back a discounted percentage of the company’s valuation at the time of the settlement
+date. This type of fundraising round could be used in conjunction with traditional fundraising (i.e.
+angel investments, venture capital, etc.) and cryptocurrency-specific fundraising styles (public
+token pre-sales, ICOs, etc.)
+
+### VIII.4 XOR Credit Default Swaps
+When a lender assigns a valuation in XOR Open Loan, he is essentially buying a Credit Default
+Swap, but with the insurance provider being the collective pool of lenders. This provides a
+huge opportunity for accurately priced, essentially no-fee, credit default swap contracts. These
+insurance purchases can then be chained as underlying assets.
+
+### VIII.5 XOR Collateral Debt Obligations
+An XOR Open Loan Collateral Debt Obligation would also be an incredibly impactful event in
+finance. The tranches of the CDO can be comprised of loans of different risk tiers. Senior tranches
+could receive the first payments as the tranches descend to high risk borrowing customers.
+
+### VIII.6 XOR Synthetic CDOs
+More interesting is the potential for synthetic CDOs. A synthetic CDO is essentially a gamble on
+the performance of another CDO. These gambles can chain with increasing odds, leading to a
+massive amount of leverage in the market that otherwise didn’t exist. Synthetic CDOs when used
+correctly are healthy for a market because they introduce liquidity and leverage. However, many
+synthetic CDOs have opaque underlying assets.
+
+An XOR Open Loan synthetic CDO would be truly revolutionary because of the blockchain
+architecture. All tranches of the CDO would be fully viewable due to the public ledger of the
+blockchain recording every step of the creation of the CDO. Thus, XOR can enable a healthy and
+relatively safe form of CDO leverage and liquidity.
+
+### VIII.7 Creation of Prediction Markets
+An especially unique facet of XOR Open Loan is that it enables anyone to create any type of
+market. As explained previously, a debt obligation contract can be used to generally model a
+myriad of economic systems. Because of this, the XOR Open Loan system allows for the creation
+of markets by anyone within the framework of fairness, accessibility, and trustworthiness builtin.
+For example, one could create a sports betting market, or a market betting on the weather,
+or even some sort of crazy nth order synthetic CDO market where the underlying assets are
+cryptocurrencies pegged to weather patterns. As long as there are lenders and loaners, any market
+can exist through XOR Open Loan.
