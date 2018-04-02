@@ -3,7 +3,7 @@
 Apr 2nd, 2018
 
 ## Abstract
-The XOR Protocol is a financial system built on a distributed public ledger that supports a unique class
+_The XOR Protocol is a financial system built on a distributed public ledger that supports a unique class
 of markets and securities, which are more transparent, decentralized, democratic, and general than current
 systems. Examples include simple loans, mortgage bonds, and derivative markets such as Collateral Debt
 Obligations (CDO) and Credit Default Swaps (CDS). XOR uses smart contracts to model any type of loan.
@@ -23,5 +23,5 @@ rather than as its own system. This makes it possible to build XOR on top of any
 i.e. the Ethereum network or the Bitcoin network. As long as at least one distributed ledger exists, the
 XOR Protocol can exist. XOR will open doors to fair loans and credit access to people across the world
 by providing an accessible platform through which anyone in the world can create a market or invest in
-markets in a way that is transparent, distributed, fair, and flexible.
+markets in a way that is transparent, distributed, fair, and flexible._
 
