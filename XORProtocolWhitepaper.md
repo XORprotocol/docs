@@ -250,3 +250,149 @@ is completely transparent; statistics on past returns and losses can be computed
 historical information on the underlying markets is freely available. Finally, as portfolios represent
 a group of investments in different markets, it follows naturally that portfolios can be combined
 with other portfolios. This allows portfolios to be iterated upon seamlessly.
+
+## V. Trust Protocol
+A robust Trust score protocol is required in order to allow lenders to verify borrowers without a
+third party underwriter. The two situations that are possible are that a borrower has a Trust score
+on the system, and the borrower does not have Trust. In the event that the borrower does not have
+Trust, the system has to initialize a score. We propose a combination of parameter fitting user
+input data and a process of Social Staking. Through Social Staking, borrowers are encouraged to
+verify other borrowers. As with everything else in XOR, the Trust protocol is modular and can be
+tuned per market. In addition, a given market’s Trust protocol will be transparent, creating a more
+fair system. Higher Trust directly translates to increased buying power and a better risk profile.
+
+### V.1 Trust
+Trust is the decentralized and transparent XOR analog to a credit score. High Trust indicates that
+a borrower is highly trustable on the network. This means that the borrower’s opinion on vetting
+low/no credit customers is highly valuable. As a reward for having high Trust, the borrower will
+have access to more capital and better interest rates from lenders. A high Trust score indicates a
+low risk profile for that borrower. Borrowers can increase their Trust by paying back loans and by
+correctly verifying other borrowers through the Social Staking system. Trust can be determined
+by parameter fitting user inputted data such as existing FICO scores, evidence of education, and
+any other factor that could have association with an increased likelihood of repaying a debt. In
+addition, Trust can be supplemented by Social Stakers.
+
+### V.2 Social Staking
+Social Staking is a process through which a borrower can increase his Trust by having other
+borrowers stake his position. In the event that the original borrower pays the loan back, Trust
+increases for all participating Stakers, and if a borrower defaults, Trust decreases for Stakers. This
+creates a system where Stakers are incentivized to accurately assess fellow borrowers.
+
+In the event of a customer without Trust requesting a loan, there are two primary options. The
+first is that the customer posts a loan request, and the contract is treated as extremely high risk. In
+this situation, the borrower would receive a low amount of cash and high interest. On the lender
+side, the lender will post a high collateral fee to the insurance pool, but will also gain high return
+on investment from the high interest.
+
+Another option for a customer without Trust is to receive initial verification from borrowers
+who have Trust. In this scheme, having a high number of verifiers as well as verifiers with high
+Trust Scores will improve the customer’s initial Trust.
+
+## VI. Cryptoeconomics
+The cryptoeconomic model for the XOR Protocol provides a framework for a revenue model and
+system valuation. We introduce the XOR Value Token (XVT) as the representation of the XOR
+Protocol’s value. In addition, we introduce the concept of a stablecoin with which to settle the loan
+contracts themselves. In addition, we present the possibility of using atomic swaps so that lenders
+and borrowers can use any atomic swappable cryptocurrency. We also describe the interaction
+between XVT and governance rights within the XOR Protocol. It is important to note that XVT
+and the proposed contract stablecoin are not necessarily the same token, although loans could be
+processed with XVT as the currency medium if necessary.
+
+### VI.1 XOR Value Token (XVT)
+The XOR Value Token (XVT) represents the net value of the entire XOR Protocol. Because the
+XOR Protocol can be built on top of any distributed ledger, XVT’s value encompasses the value of
+all of those ledgers’ XOR Protocol layers. This is the model used by most other cryptocurrency
+companies, ex. Bitcoin, Ethereum, etc.
+
+The Ethereum Foundation provides most of the inspiration for XVT’s model. As the value of
+XOR itself grows, so too will the value of XVT, which can be used in the XOR Protocol in ways
+described below. A portion of XVT will be kept aside for the initial members who worked on
+XOR. A second portion will be kept for running XOR’s company itself, as a coffer. The rest of the
+tokens, the vast majority, will be purchased by investors and system participants.
+
+### VI.2 Contract Stablecoin
+Price fluctuations can be extreme in cryptocurrencies. To combat this, some members of the
+cryptocurrency community are working on stablecoin implementations. Stablecoins are usually
+aggregates of other coins with low price fluctuations, statistically adjusted so as to provide minimum
+movement. Makerdao’s stablecoin DAI is pegged against USD at a rate of 1:1. Stablecoins
+are important in XOR loan contracts because they provide certainty to a loan. For example, if a
+non-stablecoin is used, its value could increase percentage wise beyond the interest rate of the
+loan before the lending period is over. In this situation, the lender loses money. Stablecoins can
+help to prevent this situation.
+
+### VI.3 Atomic Swaps
+Atomic swaps allow for the exchange of two cryptocurrencies using the same hashing algorithm
+without requiring a trusted third party, provided that a bridge between the two currencies has
+been built. This provides liquidity to cryptocurrency markets and allows for some degree of
+equivalency between different currencies. We can employ atomic swaps within XOR so as to
+support contracts that exchange different cryptocurrencies. XOR will support other systems of
+interoperability beyond atomic swaps.
+
+### VI.4 Token Acquisition and Usage
+XVT will be used as the functional currency on XOR. There are several examples of uses of XVT
+that provide value to XVT. It is important to note that this list does not encompass all use cases
+for XVT.
+
+1. When creating a market, the market creator can receive a portion of transactions or otherwise
+generate revenue off the implemented revenue model, as discussed above. To encourage
+participants in the market, the market creator can lock some XVT into the insurance pool as
+a hedge against his market’s failure. A greater amount of XVT leads to a decreased market
+riskiness.
+2. Within any type of market, lenders can lock XVT in the insurance pool so as to increase their
+voting rights. In general a greater amount of XVT will correspond with greater voting rights,
+but this model can be nonlinear and decided upon by the market creator or the voters.
+3. Borrowers can lock XVT into the market or a contract as collateral. This essentially allows
+for the possibility of secured loans, versus unsecured loans as described in this paper above.
+In certain markets, borrowers can also have voting rights.
+4. XVT itself can be used as the currency of choice for contracts.
+5. For both lenders and borrowers, XVT can be incorporated into the Trust computation. This
+is because an actor with a high stake in the XOR system is more likely to be trustworthy.
+XVT can also be used to stake others. In this system, a borrower would essentially use his
+Social Stakers’ XVT as a staked social collateral for increased Trust.
+6. When creating Loan Intents, lenders can lock an amount of XVT as the transfer currency.
+This can be extended to the concept of portfolios as well.
+
+### VI.5 Governance
+Governance is how choices are made in a system. Examples of governance systems include
+unweighted voting, weighted voting, ring voting (where a random subsection of a group is
+chosen at the voting), node/supernode (where supernodes have voting powers but nodes vote for
+supernodes, much like a Republic), and many other structures. Governance is important to the
+XOR Protocol because many of the modular parameters need to be governed by the distributed
+user group. XOR’s governance system itself can be modular so as to reflect the most relevant style
+for the market and time.
+
+## VII. Identity and Legal Considerations
+In order to be able to use the protocol, it is necessary to implement a robust Proof of Identity
+system so as to be able to legally reconcile any possible bad acts. Without Proof of Identity, a
+financial system is vulnerable to attacks where one user can create multiple identities and increase
+his borrowing power.
+
+### VII.1 Proof of Identity
+Proof of Identity is a complicated problem that many blockchain companies are attempting to
+solve. uPort is a company that is developing an open source and decentralized identity system
+on the Ethereum network. uPort works by storing personal keys on your smartphone and uses
+a smart contract to lock that information and provide recoverability in the event that a person
+loses their key. This is an advantage over traditional public/private key paradigms, where losing
+a private key essentially means losing access to the information protected by that key. Other
+companies such as Cambridge Blockchain LLC and Civic also have variations on Proof of Identity.
+For customers in countries which heavily document their citizens such as the US, simply uploading
+a government ID would potentially suffice as Proof of Identification.
+
+It is again important to note that because XOR is designed to be modular, any identity system
+can be swapped in or out. For example, in the future, perhaps biometric identifiers will become
+the new bank-grade standard. We want to make sure that XOR is flexible enough to handle these
+types of situations.
+
+### VII.2 Legal Considerations
+Contracts have to be legally reconcilable in order for lenders and borrowers to be able to safely
+participate. For example, in the event that a borrower borrows money and tries to disappear, it
+has to be possible for lenders to pursue legal action. This requires Proof of Identity as well as a
+strong legal protocol.
+
+XOR currently plans to use the OpenLaw protocol to handle automation and reconciliation
+of legal contracts. OpenLaw allows for the decentralized and autonomous generation of legal
+contracts. It has flexible functionality, including cross-border functionality where lenders and
+borrowers from different countries can select the appropriate jurisdiction. Combined with blockhain
+notarizing and Proof of Identity, XOR will be able to provide a framework for customers
+to assess and reconcile legal issues. The OpenLaw contract can be encapsulated within the
+lending/borrowing contract itself.
